@@ -26,6 +26,14 @@
 		0DDC2BFC2C95C651004A9C96 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2BFB2C95C651004A9C96 /* FooterView.swift */; };
 		0DDC2BFF2C95C7A6004A9C96 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2BFE2C95C7A6004A9C96 /* HeaderComponent.swift */; };
 		0DDC2C012C95C83A004A9C96 /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2C002C95C83A004A9C96 /* GuideComponent.swift */; };
+		0DDC2C032C96D326004A9C96 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2C022C96D326004A9C96 /* GuideView.swift */; };
+		0DDC2C052C97F660004A9C96 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2C042C97F660004A9C96 /* InfoView.swift */; };
+		0DDC2C072C97F6CB004A9C96 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2C062C97F6CB004A9C96 /* TitleModifier.swift */; };
+		0DDC2C0A2C97F7A3004A9C96 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2C092C97F7A3004A9C96 /* ButtonModifier.swift */; };
+		0DDC2C0C2C97FDF4004A9C96 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2C0B2C97FDF4004A9C96 /* DragState.swift */; };
+		0DDC2C0F2C98074F004A9C96 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2C0E2C98074F004A9C96 /* SymbolModifier.swift */; };
+		0DDC2C112C980981004A9C96 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2C102C980981004A9C96 /* CardTransition.swift */; };
+		0DDC2C142C980ACA004A9C96 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC2C132C980ACA004A9C96 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +76,14 @@
 		0DDC2BFB2C95C651004A9C96 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		0DDC2BFE2C95C7A6004A9C96 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		0DDC2C002C95C83A004A9C96 /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		0DDC2C022C96D326004A9C96 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		0DDC2C042C97F660004A9C96 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		0DDC2C062C97F6CB004A9C96 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		0DDC2C092C97F7A3004A9C96 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		0DDC2C0B2C97FDF4004A9C96 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
+		0DDC2C0E2C98074F004A9C96 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		0DDC2C102C980981004A9C96 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		0DDC2C132C980ACA004A9C96 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +134,13 @@
 		0D6C79072C92ED510059F2D8 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				0DDC2C122C980AC3004A9C96 /* Helper */,
 				0DDC2BFD2C95C798004A9C96 /* Components */,
 				0DDC2BEF2C95BCC5004A9C96 /* Models */,
 				0DDC2BF22C95C1BA004A9C96 /* Data */,
 				0DDC2BF32C95C1F9004A9C96 /* Views */,
+				0DDC2C0D2C97FDFC004A9C96 /* Enums */,
+				0DDC2C082C97F6F5004A9C96 /* Modifiers */,
 				0DDC2BF82C95C2FB004A9C96 /* Extensions */,
 				0D6C79082C92ED510059F2D8 /* HoneymoonApp.swift */,
 				0D6C790C2C92ED510059F2D8 /* Item.swift */,
@@ -190,6 +209,8 @@
 				0DDC2BF42C95C208004A9C96 /* CardView.swift */,
 				0DDC2BF92C95C569004A9C96 /* HeaderView.swift */,
 				0DDC2BFB2C95C651004A9C96 /* FooterView.swift */,
+				0DDC2C022C96D326004A9C96 /* GuideView.swift */,
+				0DDC2C042C97F660004A9C96 /* InfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				0DDC2BF62C95C2F7004A9C96 /* View.swift */,
+				0DDC2C102C980981004A9C96 /* CardTransition.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -209,6 +231,32 @@
 				0DDC2C002C95C83A004A9C96 /* GuideComponent.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		0DDC2C082C97F6F5004A9C96 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC2C062C97F6CB004A9C96 /* TitleModifier.swift */,
+				0DDC2C092C97F7A3004A9C96 /* ButtonModifier.swift */,
+				0DDC2C0E2C98074F004A9C96 /* SymbolModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		0DDC2C0D2C97FDFC004A9C96 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC2C0B2C97FDF4004A9C96 /* DragState.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0DDC2C122C980AC3004A9C96 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC2C132C980ACA004A9C96 /* PlaySound.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,17 +392,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDC2C142C980ACA004A9C96 /* PlaySound.swift in Sources */,
 				0DDC2BEE2C95BCC0004A9C96 /* Destination.swift in Sources */,
 				0D6C790B2C92ED510059F2D8 /* ContentView.swift in Sources */,
 				0D6C790D2C92ED510059F2D8 /* Item.swift in Sources */,
+				0DDC2C032C96D326004A9C96 /* GuideView.swift in Sources */,
 				0DDC2BFC2C95C651004A9C96 /* FooterView.swift in Sources */,
+				0DDC2C052C97F660004A9C96 /* InfoView.swift in Sources */,
 				0DDC2BF12C95C1B2004A9C96 /* HoneymoonData.swift in Sources */,
+				0DDC2C072C97F6CB004A9C96 /* TitleModifier.swift in Sources */,
 				0DDC2BF52C95C208004A9C96 /* CardView.swift in Sources */,
+				0DDC2C0C2C97FDF4004A9C96 /* DragState.swift in Sources */,
+				0DDC2C112C980981004A9C96 /* CardTransition.swift in Sources */,
+				0DDC2C0A2C97F7A3004A9C96 /* ButtonModifier.swift in Sources */,
 				0DDC2BFF2C95C7A6004A9C96 /* HeaderComponent.swift in Sources */,
 				0DDC2BF72C95C2F7004A9C96 /* View.swift in Sources */,
 				0DDC2C012C95C83A004A9C96 /* GuideComponent.swift in Sources */,
 				0D6C79092C92ED510059F2D8 /* HoneymoonApp.swift in Sources */,
 				0DDC2BFA2C95C569004A9C96 /* HeaderView.swift in Sources */,
+				0DDC2C0F2C98074F004A9C96 /* SymbolModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
